@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'nebula.nebula-release' version '4.0.1'
+}
+
+sourceCompatibility = '1.8'
+
+group = 'net.sghill.seams'
+
+repositories {
+    mavenCentral()
+}
